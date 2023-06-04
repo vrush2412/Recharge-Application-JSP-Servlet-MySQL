@@ -1,0 +1,495 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+img.abc {
+    max-width: 55%;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.mid-content{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/*begain css header */
+.main-nogod{
+    background: #fff;
+    
+}
+.logo-left{
+    width: 10%;
+    
+}
+.logo{
+    
+}
+.logo img{
+    height: 70px;
+    margin: auto; 
+   
+}
+.right-menu{
+    width: 90%;
+    float: right;
+}
+.right-menu ul{}
+.right-menu ul li{
+    display: inline-block;
+}
+.right-menu ul li a{
+    padding: 20px;
+}
+
+/* Drop Down menu css start */
+.right-menu ul{}
+.right-menu ul li{
+    position: relative;
+    
+}
+.right-col h1 {
+    padding: 64px 105px;
+    font-size: 26px;
+    margin: 30px;
+}
+.right-menu ul li ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    opacity: 0;
+    visibility: hidden;
+   
+    transform-origin: top center;
+}
+.right-menu ul li a{
+    display: block;
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 60px ;
+    color: black;
+    
+}
+
+.right-menu ul li{
+    top: 100%;
+    opacity: 1;
+    font-size: 20px;
+    width: 210px;
+    
+}
+.languge-section{
+    margin-top: 30px;
+    margin-right: 5px;
+    
+}
+
+/* banner section */
+.banner-section{
+    margin-top: 100px;
+    background-image: url(./img/nagad7.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.banner-content{
+    padding: 80px 0;
+    background-color: #dacece;
+}
+.banner-contents p{
+    font-size: 25px;
+}
+.banner-btn{
+    padding: 20px 0;
+}
+.defult-btn{
+    padding: 15px 20px;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: rgb(73, 68, 68);
+    display: inline-block;
+    border-radius: 10px;
+    transition: .5s;
+    margin-left: 20px;
+}
+.defult-btn:hover{
+    color: rgb(252, 147, 9);
+    background-color: black;
+}
+.slaider-section{
+    background-image: url(./img/nagad8.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slaider-sections{}
+.defult-btns{
+    padding: 15px 20px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    display: inline-block;
+    margin-top: -20px;
+    border-radius: 10px;
+    transition: .5s;
+    color: black;
+}
+.defult-btns:hover{
+    background-color: chartreuse;
+    color: violet;
+}
+.text-content{
+    padding: 100px 0;
+}
+.text-ariya h4{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.text-ariya p{
+    font-size: 22px;
+    color: #767676;
+}
+
+.list-items img{
+    width: 200px;
+    
+}
+
+/* icon menu start */
+.icon{
+    padding: 0px 0;
+    
+}
+.icon-menu{}
+.icon-div{}
+.icon-item{}
+.icon-item img{
+    height: 100px;
+    width: 100px;
+    box-shadow: 3px 4px 30px 0 rgba(98, 120, 223, .4);
+    border-radius: 50%;
+    margin-left: 210px;
+    display: inline-block;
+    transition: .5s;
+   
+}
+.icon-item img:hover{
+    transform: scale(1.2,1.2);
+}
+.icon-item h2{
+    margin-left: 220px;
+    margin-top: 10px;
+}
+.icon-item p{
+    margin-left: 170px;
+    margin-top: 10px;
+}
+.icon-item h4{
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 220px;
+    margin-top: 5px;
+}
+
+.botom-icon{
+   
+  
+}
+.icon-botom img{
+    height: 100px;
+    width: 100px;
+    box-shadow: 3px 4px 30px 0 rgba(98, 120, 223, .4);
+    border-radius: 50%;
+    margin-left: 220px;
+    display: inline-block;
+    margin-top: 80px;
+    transition: .4s;
+}
+.icon-botom img:hover{
+    transform: scale(1.2,1.2);
+}
+
+.icon-botom h2{
+    margin-left: 220px;
+    margin-top: 10px;
+}
+.icon-botom p{
+    margin-left: 170px;
+    margin-top: 10px;
+}
+.icon-botom h4{
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 220px;
+    margin-top: 5px;
+    margin-bottom: 100px;
+}
+
+/* dashe nagad sectin */
+.dashe-nagad{
+    margin-bottom: 100px;
+    
+}
+.dashe-nagads{
+    background-image: url(./img/banner-3.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.content h3{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.content p{
+    font-size: 19px;
+    margin-bottom: 40px;
+}
+.content a{
+    border: 2px solid rgb(238, 8, 8);
+    padding: 10px 30px;
+    font-size: 19px;
+    color: red;
+    transition: .5s;
+    
+   
+}
+.content a:hover{
+    
+    color: whitesmoke;
+}
+
+/* option section */
+.option{
+    background-color: #f1eded;
+    padding: 80px;
+}
+.option-section h2{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.option-left{
+    width: 44%;
+}
+.option-right{
+    width: 44%;
+}
+.option-left span{
+    font-size: 20px;
+    box-shadow: 3px 4px 30px 0 rgba(98, 120, 223, .4);
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: .5s;
+   
+}
+.option-left span:hover{
+    
+    border-radius: 50%;
+    color: whitesmoke;
+}
+.option-left a{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: black;
+}
+.option-left p{
+    font-weight: 300;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.option-one{
+    margin-bottom: 55px;
+}
+.option-two{
+    margin-bottom: 55px;
+}
+.option-three{
+    margin-bottom: 15px;
+}
+
+.option-right{
+    margin-top: 20px;
+}
+.option-right img{
+        height: 340px;
+        margin: auto;
+        
+}
+
+
+.btn{
+    background-color: #f1eded;
+    padding: 60px;
+}
+.open-btn a{
+    font-size: 20px;
+    color: red;
+    border: 2px solid red;
+    padding: 8px;
+    border-radius: 5px;
+    transition: .5s;
+
+}
+.open-btn a:hover{
+    color: whitesmoke;
+   
+}
+
+/* testimoniyal section */
+.testi-section{
+    padding: 100px;
+}
+.testi-content h2{
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.testi-content p{
+    margin-bottom: 5px;
+}
+.testi-left{
+    width: 48%;
+}
+.testi-right{
+    width: 48%;
+}
+.testi-right p{
+    margin-top: 150px;
+    width: 400px;
+    line-height: 1cm;
+  
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.testi-left{
+    margin-top: 100px;
+}
+
+/* download-section item */
+.download-section{
+    background-color: #f1eded;
+    padding: 100px;
+}
+.download-list{}
+.download-item-left{
+
+}
+.download-item-left h2{
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 18px;
+
+}
+.download-item-left p{
+    width: 450px;
+    margin-bottom: 40px;
+}
+.download-item-right img{
+    height: 400px;
+    margin: auto;
+}
+
+/*footer nagad section */
+.nagad-section {
+    padding: 80px;
+        background: azure;
+}
+.nagad-service{}
+.nagad-service-one{
+    width: 22%;
+}
+.nagad-service-two{
+    width: 22%;
+}
+.nagad-service-three{
+    width: 22%;
+}
+.nagad-service-furr{
+    width: 22%;
+}
+
+.nagad-service-two a{
+        display: block;
+        font-size: 15px;
+        color: rgb(92, 81, 81);
+        margin-bottom: 10px;
+        margin-top: 20px;
+}
+.nagad-service-three a{
+    display: block;
+    font-size: 15px;
+    color:rgb(92, 81, 81) ;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+/* footer */
+.footer{
+    background:#0088a9 ;
+    color: white;
+    padding:40px;
+}
+.footer-left{
+    float: left;
+    width: 40%;
+}
+.footer-right{
+    float: right;
+    width: 60%;
+}
+
+
+.social-menu{
+    text-align: right;
+}
+.social-menu li{
+    display: inline-block;
+}
+.social-menu li a{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    transition: .5s;
+}
+.social-menu li a:hover{
+    background: #0984e3;
+    padding: 10px;
+    border-radius: 50%;
+}

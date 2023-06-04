@@ -1,0 +1,79 @@
+create table admin
+(     admin_Id int constraint pk  primary key,
+      admin_Name  Varchar2(20),
+      admin_Uname Varchar2(20),
+      admin_Email Varchar2(20) unique ,
+      admin_pass Varchar2(20)  not null
+);
+ 
+create table cust
+(     user_Id int constraint ck  primary key,
+      user_Name  Varchar2(20),
+      user_Mob  varchar2(20),
+      user_Uname Varchar2(20),
+      user_Email Varchar2(20) unique ,
+      user_pass Varchar2(20)  not null
+);
+ 
+create table contact
+(    
+     Name  Varchar2(20),
+     Email  varchar2(40)unique ,
+     Sub Varchar2(40),
+     Message Varchar2(80),
+     Userd Varchar2(20) 
+);
+
+create table Operators
+(    
+     id int ,
+     PlanName  Varchar2(20),
+     company   Varchar2(50),
+     pExpiry   Varchar2(20),
+     price Varchar2(20)
+);
+    
+ create table payment
+(    
+     Name Varchar2(20),
+     Email_Address Varchar2(20),
+     DOB   Varchar2(20),
+     Gender  Varchar2(20),
+     Bank_Name Varchar2(20),
+     Amount varchar2(20),
+     pay_Method varchar2(20),
+      paydate  varchar2(20) 
+);
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 	<c:if test="${requestScope.empList !=null and 
+	not empty requestScope.empList}">
+	<table border="1"  cellpadding="3">
+	  <tr>
+				
+				<th scope="col">Id</th>
+				<th scope="col">Operator Name</th>
+				<th scope="col">Plan Detail</th>
+				<th scope="col">Plan Validity</th>
+				<th scope="col">Price</th>
+			</tr>
+			<c:forEach items="${requestScope.empList }" var="e">
+			  <tr>
+			<td class="table-success">${e.id}</td>
+			<td class="table-success">${e.PlanName}</td>
+			<td class="table-success">${e.company}</td>
+			<td class="table-success">${e.pExipry}</td>
+			<td class="table-success">${e.price}</td>
+        </tr>
+			</c:forEach>
+	</table></c:if>
